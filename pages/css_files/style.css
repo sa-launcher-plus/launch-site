@@ -102,4 +102,8 @@ body {
    .info_install_photo {
        width: 100%;
    }
+
+   #vk_subscribe {
+       display: none;
+   }
 }
