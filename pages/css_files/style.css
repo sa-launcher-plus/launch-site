@@ -1,0 +1,105 @@
+body {
+    color: white;
+    background-color: #1a1a1a;
+}
+
+#logo_launch {
+    margin-left: 25px;
+    margin-right: 17px;
+    width: 35%;
+    float: left;
+    transition: 0.5s;
+}
+
+#logo_launch:hover {
+    width: 37%;
+    transition: 0.5s;
+}
+
+.zag_launch {
+    font-size: 45px;
+}
+
+.text_info_gta_launch {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 21px;
+}
+
+.URL {
+    color: #737373;
+    transition: 0.5s;
+}
+
+.URL:hover {
+    color: #a8a8a818;
+    transition: 0.5s;
+}
+
+.download {
+    font-size: 20px;
+    background-color: #a8a8a8;
+    transition: 0.5s;
+    width: 250px;
+    height: 50px;
+}
+
+
+.download:hover {
+    background-color: wheat;
+    transition: 0.5s;
+}
+
+.downloaddd {
+    font-size: 20px;
+    background-color: #a8a8a8;
+    transition: 0.5s;
+    width: 250px;
+    height: 50px;
+}
+
+
+.downloaddd:hover {
+    background-color: wheat;
+    transition: 0.5s;
+}
+
+.info_install_photo {
+    width: 75%;
+}
+
+#giff {
+    width: 45%;
+}
+
+@media screen and (max-width: 1000px) {
+   #logo_launch {
+       display: none;
+   }
+
+   .download {
+        display: none;
+   }
+
+   #vk_ask {
+        display: none;
+   }
+
+   footer {
+        display: none;
+   }
+
+   .downloaddd {
+        width: 700px;
+        height: 100;
+        font-size: 35px;
+   }
+
+   #bbrr {
+        display: none;
+   }
+
+   .info_install_photo {
+       width: 100%;
+   }
+}
