@@ -1,7 +1,0 @@
-git push origin --delete gh-pages
-git branch -D gh-pages
-git init
-git branch gh-pages
-git push origin gh-pages
-
-git rebase -i f316be71d9b99b282e5848eb1af2b3a48717a36e
