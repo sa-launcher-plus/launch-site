@@ -106,4 +106,8 @@ body {
    #vk_subscribe {
        display: none;
    }
+
+   .yt {
+       display: none;
+   }
 }
